@@ -21,6 +21,47 @@ header {
     margin-bottom: 50px;
 }
 
+.cart-list {
+    position: absolute;
+    display: none;
+    padding: 20px;
+    border: 3px solid lightskyblue;
+    padding: 5px;
+    margin-left: -150px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.cart-item {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.right-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.del-btn {
+    width: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.warp {
+    position: relative;
+}
+
+.wrap:hover .cart-list{
+    display: block;
+}
+
+
 .btn-cart {
     padding: 10px;
     border: none;
